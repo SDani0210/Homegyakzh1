@@ -60,7 +60,27 @@ div#content img{
     padding: 3px;
     border: 3px solid blue;
 }
+table {
+    width: 100%;
+    border-collapse: collapse; /* Az összefonódott határok, így a cellák között nincs tér */
+  }
+th {   /* Fejléchez */
+    background-color:#B9C9FE ; 
+    color:#2654fa; 
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 5px solid white; 
+  }
 
+  /* Adat cellák színezése */
+  td {
+    background-color: #D0DAFD; 
+    padding: 10px;    
+    border-bottom: 5px solid white; 
+  }
+  tr:last-child td{
+    border-bottom: none; /* Az utolsó adatcellában ne legyen vonal alul */
+  }
 footer{
     border-radius: 10px;
     margin: 10px;
